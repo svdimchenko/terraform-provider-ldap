@@ -50,7 +50,7 @@ If you like to reuse these structures, you can implement a terraform module.
 terraform {
   required_providers {
     ldap = {
-      source  = "l-with/ldap"
+      source  = "svdimchenko/ldap"
       version = ">= 0.4"
     }
   }

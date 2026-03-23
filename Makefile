@@ -1,6 +1,6 @@
 TEST?=$$(go list ./... | grep -v 'vendor')
 HOSTNAME=registry.terraform.io
-NAMESPACE=l-with
+NAMESPACE=svdimchenko
 NAME=ldap
 BINARY=terraform-provider-${NAME}
 VERSION?=9.9.9
